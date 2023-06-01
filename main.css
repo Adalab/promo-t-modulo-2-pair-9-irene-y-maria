@@ -14,3 +14,10 @@
   top: 50%;
   transform: translate(-50%, -60%) rotate(90deg);
 }
+
+.page {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
