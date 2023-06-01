@@ -3,6 +3,7 @@
   height: 100px;
   position: relative;
   width: 100px;
+  border-radius: 50%;
 }
 .face {
   font-family: "courier new", serif;
@@ -12,4 +13,11 @@
   position: absolute;
   top: 50%;
   transform: translate(-50%, -60%) rotate(90deg);
+}
+
+.page {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
